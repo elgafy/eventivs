@@ -18,7 +18,7 @@ state([
 rules([
     'first_name' => ['required', 'string', 'max:255'],
     'last_name' => ['required', 'string', 'max:255'],
-    'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:' . Registrant::class],
+    'email' => ['required', 'string', 'email', 'max:255'],
     'mobile' => ['required', 'string', 'max:255'],
     'workplace' => ['required', 'string', 'max:255'],
     'speciality' => ['required', 'string', 'max:255'],
