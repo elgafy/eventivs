@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .main-content {
+    background-image: url("/storage/images/bg.png");
+    background-size: cover;
+    background-position: center;
+} */
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+.oliatum-body {
+    background-image: url("/storage/images/oilatum_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.pafinur-body {
+    background-image: url("/storage/images/pafinur_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.amarox-body {
+    background-image: url("/storage/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
