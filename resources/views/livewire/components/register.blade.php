@@ -11,7 +11,7 @@ state([
     'mobile' => '',
     'workplace' => '',
     'speciality' => '',
-    'event_id' => '2',
+    'event_id' => '',
     'show' => false,
 ]);
 
@@ -64,44 +64,44 @@ on([
 ?>
 
 <div x-cloak x-show="$wire.show"
-    class="bg-[#412A5B] text-black rounded-xl fixed p-12 top-[20%] left-[15%] z-50 flex flex-col items-start justify-center w-[70%] h-[65%] md:items-center backdrop-filter backdrop-blur bg-gray-800/50">
-    <h3 class="mb-4 text-3xl font-bold text-white">Register</h3>
+    class="bg-[#face17]/50 text-black rounded-xl fixed p-12 top-[20%] left-[15%] z-50 flex flex-col items-start justify-center w-[70%] h-[65%] md:items-center backdrop-filter backdrop-blur">
+    <h3 class="mb-4 text-3xl font-bold text-black">Register</h3>
     <form class="w-full" wire:submit="register">
         <!-- Name -->
         <div>
-            <x-input-label class="text-base text-white" for="first_name" :value="__('First Name')" />
+            <x-input-label class="text-base text-black" for="first_name" :value="__('First Name')" />
             <x-text-input wire:model="first_name" id="first_name" class="block w-full mt-1" type="text"
                 name="first_name" required autofocus />
             <x-input-error :messages="$errors->get('first_name')" class="mt-2" />
         </div>
         <div class="mt-4">
-            <x-input-label class="text-base text-white" for="last_name" :value="__('Last Name')" />
+            <x-input-label class="text-base text-black" for="last_name" :value="__('Last Name')" />
             <x-text-input wire:model="last_name" id="last_name" class="block w-full mt-1" type="text"
                 name="last_name" required autofocus />
             <x-input-error :messages="$errors->get('last_name')" class="mt-2" />
         </div>
         <div class="mt-4">
-            <x-input-label class="text-base text-white" for="workplace" :value="__('Workplace')" />
+            <x-input-label class="text-base text-black" for="workplace" :value="__('Workplace')" />
             <x-text-input wire:model="workplace" id="workplace" class="block w-full mt-1" type="text"
                 name="workplace" />
             <x-input-error :messages="$errors->get('workplace')" class="mt-2" />
         </div>
         <div class="mt-4">
-            <x-input-label class="text-base text-white" for="speciality" :value="__('Speciality')" />
+            <x-input-label class="text-base text-black" for="speciality" :value="__('Speciality')" />
             <x-text-input wire:model="speciality" id="speciality" class="block w-full mt-1" type="text"
                 name="speciality" />
             <x-input-error :messages="$errors->get('speciality')" class="mt-2" />
         </div>
 
         <div class="mt-4">
-            <x-input-label class="text-base text-white" for="mobile" :value="__('Mobile')" />
+            <x-input-label class="text-base text-black" for="mobile" :value="__('Mobile')" />
             <x-text-input wire:model="mobile" id="mobile" class="block w-full mt-1" type="text" name="mobile"
                 required />
             <x-input-error :messages="$errors->get('mobile')" class="mt-2" />
         </div>
 
         <div class="mt-4">
-            <x-input-label class="text-base text-white" for="email" :value="__('Email')" />
+            <x-input-label class="text-base text-black" for="email" :value="__('Email')" />
             <x-text-input wire:model="email" id="email" class="block w-full mt-1" type="email" name="email"
                 required />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />

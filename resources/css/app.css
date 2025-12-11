@@ -21,6 +21,11 @@ body {
     background-size: cover;
     background-position: center;
 }
+.nizoral-body {
+    background-image: url("/storage/images/nizoral_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .pafinur-body {
     background-image: url("/storage/images/pafinur_bg.jpg");
     background-size: cover;
