@@ -30,7 +30,7 @@
                     class="w-[16vw]">
 
             </div>
-            <div class="z-10 flex items-start justify-center w-full gap-4 mt-[24rem] px-12 pb-20">
+            <div class="z-10 flex items-start justify-center w-full gap-4 mt-[20vh] px-12 pb-20">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur-tag.png') }}" alt="" srcset=""
                     class="w-[58vw]">
             </div>
