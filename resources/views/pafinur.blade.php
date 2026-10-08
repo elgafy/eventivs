@@ -25,14 +25,14 @@
             <livewire:components.pafinur-register />
             <div class="z-10 flex items-start justify-between w-full gap-4 px-20 pt-16">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur_logo.png') }}" alt="" srcset=""
-                    class="w-[360px]">
+                    class="w-[30vw]">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur_stada_logo.png') }}" alt="" srcset=""
-                    class="w-[200px]">
+                    class="w-[16vw]">
 
             </div>
             <div class="z-10 flex items-start justify-center w-full gap-4 mt-[24rem] px-12 pb-20">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur-tag.png') }}" alt="" srcset=""
-                    class="w-[700px]">
+                    class="w-[58vw]">
             </div>
             <div class="flex flex-col items-center justify-center w-full pb-20 main-content">
                 <div class="flex flex-wrap justify-center gap-4">

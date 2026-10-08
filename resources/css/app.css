@@ -35,7 +35,7 @@ body {
     background-image: url("/storage/images/pafinur/2/background.jpg");
 }
 .pafinur-register-button {
-    @apply cursor-pointer flex items-center justify-center rounded-full w-[400px] h-[400px] p-4 text-5xl font-bold leading-none text-white;
+    @apply cursor-pointer flex items-center justify-center rounded-full w-[30vw] h-[30vw] p-4 text-[4vw] font-bold leading-none text-white;
     background-color: transparent;
     background-image: url("/storage/images/pafinur/2/button-bg.png");
     background-size: cover;
