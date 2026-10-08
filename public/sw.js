@@ -2,7 +2,7 @@ self.addEventListener("install", function (event) {
     event.waitUntil(preLoad());
 });
 
-var filesToCache = ["/", "/offline.html", "/ev/nizoral"];
+var filesToCache = ["/", "/offline.html", "/ev/pafinur"];
 
 var preLoad = function () {
     return caches.open("offline").then(function (cache) {

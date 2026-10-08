@@ -19,28 +19,28 @@
     <link rel="manifest" href="{{ asset('/storage/manifest.json') }}">
 </head>
 
-<body class="font-sans antialiased bg-[#1f3677] pafinur-body">
+<body class="font-sans antialiased bg-[#1f3677] pafinur-body background-2">
     <div class="text-black/50 dark:text-white/50">
-        <div
-            class="relative min-h-svh flex flex-col items-center justify-between selection:bg-[#1f3677] selection:text-white">
+        <div class="relative min-h-svh flex flex-col items-center justify-start selection:bg-[#1f3677] selection:text-white">
             <livewire:components.pafinur-register />
-            <div class="z-10 flex items-start justify-between w-full gap-4 px-12 pt-12">
-                <img src="{{ @asset('storage/images/pafinur_logo.png') }}" alt="" srcset=""
-                    class="w-[300px]">
-                <img src="{{ @asset('storage/images/pafinur_stada_logo.png') }}" alt="" srcset=""
+            <div class="z-10 flex items-start justify-between w-full gap-4 px-20 pt-16">
+                <img src="{{ @asset('storage/images/pafinur/2/pafinur_logo.png') }}" alt="" srcset=""
+                    class="w-[360px]">
+                <img src="{{ @asset('storage/images/pafinur/2/pafinur_stada_logo.png') }}" alt="" srcset=""
                     class="w-[200px]">
 
             </div>
+            <div class="z-10 flex items-start justify-center w-full gap-4 mt-[24rem] px-12 pb-20">
+                <img src="{{ @asset('storage/images/pafinur/2/pafinur-tag.png') }}" alt="" srcset=""
+                    class="w-[700px]">
+            </div>
             <div class="flex flex-col items-center justify-center w-full pb-20 main-content">
                 <div class="flex flex-wrap justify-center gap-4">
-                    <livewire:components.register-button />
+                    <livewire:components.pafinur-register-button />
                 </div>
 
             </div>
-            <div class="z-10 flex items-start justify-center w-full gap-4 px-12 pb-20">
-                <img src="{{ @asset('storage/images/pafinur-tag.png') }}" alt="" srcset=""
-                    class="w-[700px]">
-            </div>
+
         </div>
     </div>
 </body>

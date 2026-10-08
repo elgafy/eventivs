@@ -11,7 +11,7 @@ state([
     'mobile' => '',
     'workplace' => '',
     'speciality' => '',
-    'event_id' => '4',
+    'event_id' => '7',
     'show' => false,
 ]);
 
@@ -64,7 +64,7 @@ on([
 ?>
 
 <div x-cloak x-show="$wire.show"
-    class="bg-[#412A5B] text-black rounded-xl fixed p-12 top-[15%] left-[15%] z-50 flex flex-col items-start justify-center w-[70%] h-[65%] md:items-center backdrop-filter backdrop-blur bg-gray-800/50">
+    class="bg-[#412A5B] text-black rounded-xl fixed p-12 top-[15%] left-[5%] z-50 flex flex-col items-start justify-center w-[90%] h-[65%] md:items-center backdrop-filter backdrop-blur bg-gray-800/50">
     <h3 class="mb-4 text-3xl font-bold text-white">Register</h3>
     <form class="w-full" wire:submit="register">
         <!-- Name -->
