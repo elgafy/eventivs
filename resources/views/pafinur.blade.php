@@ -23,7 +23,7 @@
     <div class="text-black/50 dark:text-white/50">
         <div class="relative min-h-svh flex flex-col items-center justify-start selection:bg-[#1f3677] selection:text-white">
             <livewire:components.pafinur-register />
-            <div class="z-10 flex items-start justify-between w-full gap-4 px-20 pt-16">
+            <div class="z-10 flex items-start justify-between w-full gap-4 px-16 pt-12">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur_logo.png') }}" alt="" srcset=""
                     class="w-[30vw]">
                 <img src="{{ @asset('storage/images/pafinur/2/pafinur_stada_logo.png') }}" alt="" srcset=""
